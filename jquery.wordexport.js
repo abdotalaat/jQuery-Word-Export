@@ -87,6 +87,15 @@ if (typeof jQuery !== "undefined" && typeof saveAs !== "undefined") {
 
 function modifyClonedData(markup){
     markup.find("input[type=email]").attr("type","text");
+    markup.find("input[type=date]").attr("type","text");
+    markup.find("input[type=url]").attr("type","text");
+    markup.find("input[type=datetime]").attr("type","text");
+    markup.find("input[type=datetime-local]").attr("type","text");
+    markup.find("input[type=month]").attr("type","text");
+    markup.find("input[type=number]").attr("type","text");
+    markup.find("input[type=search]").attr("type","text");
+    markup.find("input[type=time]").attr("type","text");
+    markup.find("input[type=week]").attr("type","text");
 }
 
 jQuery(document).ready(function($) {
