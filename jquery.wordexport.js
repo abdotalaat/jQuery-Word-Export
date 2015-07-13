@@ -99,6 +99,7 @@ function modifyClonedData(markup){
     markup.find("input[type=search]").attr("type","text");
     markup.find("input[type=time]").attr("type","text");
     markup.find("input[type=week]").attr("type","text");
+    markup.find("input[type=button]").attr("type","submit");
 }
 
 jQuery(document).ready(function($) {
